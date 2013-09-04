@@ -1,7 +1,5 @@
-osofflineim
-===========
-
 Grid Offline Messages - Mwi Module
+===========
 
 Opensim INI settings: change http://yourdomain.com to your domain
 
