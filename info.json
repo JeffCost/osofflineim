@@ -1,0 +1,55 @@
+{
+    "name": "Grid Offline Messages",
+    "slug": "osofflineim",
+    "version": "0.0.1",
+    "core_version": "0.0.1",
+    "description": "Grid Offline Messages",
+    "keywords": ["osofflineim"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Costella",
+            "email": "jeff@localhost",
+            "role": "Lead Developer"
+        }
+    ],
+    "options": {
+            "handles": "osofflineim",
+            "auto": true
+    },
+    "roles" : [
+        {
+            "name":"Access Offline Messages Settings",
+            "description":"Permit access to the offline messages module settings.",
+            "slug":"backend_osofflineim_im_get_index",
+            "value":false
+        },
+        {
+            "name":"Save Offline Messages Settings",
+            "description":"Permit save settings and organize fields for offline messages module.",
+            "slug":"backend_osofflineim_im_put_update",
+            "value":false
+        }
+    ],
+    "required":[
+        {
+            "name": "settings",
+            "version": "1.0.0"
+        },
+        {
+            "name": "opensim",
+            "version": "1.0.0"
+        }
+    ],
+    "recommended": [],
+    "menu": [
+        {
+            "main_menu" : "Settings",
+            "title"     : "Grid Offline Messages",
+            "url"       : "osofflineim",
+            "class"     : "",
+            "li_class"  : "",
+            "children"  : []
+        }
+    ]
+}
